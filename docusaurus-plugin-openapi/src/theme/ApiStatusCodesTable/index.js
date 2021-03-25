@@ -29,11 +29,11 @@ function StatusCodesTable({ responses }) {
                       style={{ marginRight: "var(--ifm-table-cell-padding)" }}
                     >
                       <code>{code}</code>
-                    </div>
-                    <div>
-                      <RequestBodyTable
-                        body={{ ...responses[code], description: '' }}
-                        title={responses[code].description} />
+                      <div style={{width: "100%", padding: "0px 45px" }}>
+                        <RequestBodyTable
+                          body={{ ...responses[code], description: '' }}
+                          title={responses[code].description} />
+                      </div>
                     </div>
                   </div>
                 </td>

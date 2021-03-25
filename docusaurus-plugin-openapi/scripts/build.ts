@@ -2,6 +2,7 @@
 
 // @ts-ignore
 import concurrently, { CommandObj, Options } from "concurrently";
+// @ts-ignore
 import glob from "glob";
 import { basename, dirname } from "path";
 // import { chdir } from "process";
